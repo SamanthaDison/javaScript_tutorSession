@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css' rel='stylesheet'
+        integrity='sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD' crossorigin='anonymous'>
+    <title>Document</title>
+</head>
+
+<body>
+
+    <!-- NOTE the HTML is the 'window' between the user and the application code (think JavaScript) -->
+    <button onclick="buildWall('limestone')">Build A Wall</button>
+    <!-- NOTE the value that we pass when invoke a function, will typically correlate to whatever data is in your javascript. For example, this will typically be an array -->
+
+
+    <!-- NOTE my HTML is my waiter, the button is how I 'interact with' or 'order' from the waiter-->
+    <button onclick="orderPizza('mushrooms')">Order Pizza</button>
+    <!-- NOTE the argument here is what we want our pizza to be made out of -->
+
+
+    <div id="header-html">This is my H1</div>
+    <h1 id="header-text">This is my H1 Text <span id="emoji">🦧</span></h1>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
